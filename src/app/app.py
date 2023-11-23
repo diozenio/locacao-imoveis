@@ -22,7 +22,6 @@ def UnAuthApp():
             AuthApp(user)
         else:
             print("Usuário ou senha inválidos")
-            UnAuthApp()
 
     options = [
         {"name": "Criar Conta", "function": register, "params": None},
